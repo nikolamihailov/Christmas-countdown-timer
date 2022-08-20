@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+	font-family: rockwell;
+}
+
+body,
+html {
+
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+
+}
+
+body {
+	background: url(./images/cute-christmas-tree-3bbu9o7w1l55ifs8.jpg) no-repeat center center/cover;
+	text-align: center;
+}
+
+
+.container {
+
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+
+}
+
+
+
+
+h1 {
+	text-align: center;
+	color: red;
+	font-size: 60px;
+}
+
+.left {
+	display: inline-block;
+	margin: 5px;
+	padding: 15px;
+
+}
+
+.left p {
+	text-align: center;
+}
+
+
+p,
+span {
+	color: white;
+	font-size: 33px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 50px;
+}
+
+@media(max-width:900px) {
+	body {
+		background: url(./images/merry-christmas-tree-with-cat-rmhh5gzeh6u4i8fb.jpg) no-repeat center center/cover;
+
+	}
+
+	.container {
+		margin-top: 200px;
+		margin-bottom: 20px;
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+
+	h1 {
+		background-image: url(./images/white-lines-red.jpg);
+		background-size: cover;
+		background-clip: text;
+		-webkit-background-clip: text;
+		color: transparent;
+		margin-top: 60px;
+
+	}
+
+	.left {
+
+		padding: 10px;
+
+	}
+
+	p {
+		margin: 0;
+	}
+
+	p,
+	span {
+		color: white;
+		font-size: 26px;
+		font-weight: bold;
+	}
+
+	p {
+		font-size: 40px;
+	}
+}
